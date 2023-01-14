@@ -1,0 +1,18 @@
+import { Check } from 'phosphor-react'
+import { ComponentProps } from 'react'
+import { CheckboxContainer, CheckboxIndicator } from './styles'
+
+export type CheckboxProps = ComponentProps<typeof CheckboxContainer> & {}
+
+export const Checkbox = (props: CheckboxProps) => {
+  return (
+    <CheckboxContainer {...props}>
+      {/* asChild => ele não cria uma div nova, tipo um react fragment */}
+      <CheckboxIndicator asChild>
+        <Check weight="bold" />
+      </CheckboxIndicator>
+    </CheckboxContainer>
+  )
+}
+
+Checkbox.displayName = 'Checkbox'

@@ -29,3 +29,5 @@ export const Toast = ({ title, description, ...props }: ToastProps) => {
     </ToastPrimitive.Provider>
   )
 }
+
+Toast.displayName = 'Toast'

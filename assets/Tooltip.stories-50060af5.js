@@ -1,0 +1,2 @@
+import{e as o,a as t}from"./index-f3509062.js";import{j as r}from"./jsx-runtime-c2142c84.js";import"./index-42521bac.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-4bd83974.js";const p={title:"Calendar/Tooltip",component:o,args:{children:r(t,{children:"Hover me"}),content:"This is a Tooltip"},argTypes:{children:{control:{type:null}}}},l={},m=["Primary"];export{l as Primary,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Tooltip.stories-50060af5.js.map
